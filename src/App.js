@@ -15,7 +15,13 @@ function App() {
   };
 
   const calcularResultado = () => {
-    setInput(evaluate(input));
+    if(input){
+      setInput(evaluate(input));
+    }
+    else {
+      alert("Por favor ingresas valores en la calc de Axel");
+    }
+    
   }
 
   return (
