@@ -11,7 +11,12 @@ function App() {
         alt='Logo de Axel' />
       </div>
       <div className='contenedor-calculadora'>
-        
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div></div>
       </div>
     </div>
   );
